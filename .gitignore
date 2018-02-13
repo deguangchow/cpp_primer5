@@ -1,27 +1,8 @@
-build
-src/apollo/ipch
-src/apollo/apollo.vcxproj.user
-src/apollo/apollo.sdf
-src/apollo/apollo.opensdf
+cpp_primer5/x64
 
-src/core/ipch
-src/core/core.vcxproj.user
-src/core/core.sdf
-src/core/core.opensdf
+x64
 
-src/data/ipch
-src/data/data.vcxproj.user
-src/data/data.sdf
-src/data/data.opensdf
-
-src/business/ipch
-src/business/business.vcxproj.user
-src/business/business.sdf
-src/business/business.opensdf
-
-product
-
-lib
-
+cpp_primer5.VC.db
+cpp_primer5.VC.VC.opendb
 cpplint.log
 cppcheck.log
