@@ -31,6 +31,11 @@ void Object::fun1() const {
 }
 
 
+void Object::fun2()
+{
+    cout << "Object£ºfun2" << endl;
+}
+
 //////////////////////////////////////////////////////////////////////////
 Person::Person() {
     cout << "Person" << endl;
@@ -70,6 +75,11 @@ void Student::fun1() {
 }
 
 
+void Student::fun2()
+{
+    cout << "Student£ºfun2" << endl;
+}
+
 //////////////////////////////////////////////////////////////////////////
 Teacher::Teacher() {
     cout << "Teacher" << endl;
@@ -87,6 +97,11 @@ void Teacher::fun1() {
     cout << "Teacher fun1" << endl;
 }
 
+
+void Teacher::fun2()
+{
+    cout << "Teacher£ºfun2" << endl;
+}
 
 //////////////////////////////////////////////////////////////////////////
 void inherit_test() {

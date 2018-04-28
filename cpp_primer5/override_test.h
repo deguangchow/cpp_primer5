@@ -6,8 +6,8 @@
 /// \author zhoudeguang
 /// \version 1.0
 /// \2018/02/13
-#pragma once
-#include "stdafx.h"
+#ifndef OVERRIDE_TEST_H
+#define OVERRIDE_TEST_H
 
 class Object {
 public:
@@ -20,9 +20,7 @@ public:
     virtual void fun1();
     virtual void fun1() const;
 
-    virtual void fun2() {
-        cout << "Object：fun2" << endl;
-    }
+    virtual void fun2();
 };
 
 
@@ -46,9 +44,7 @@ public:
     virtual void Print();
     void fun1() override;
 
-    virtual void fun2() {
-        cout << "Student：fun2" << endl;
-    }
+    virtual void fun2();
 };
 
 class Teacher : public Person {
@@ -59,9 +55,9 @@ public:
     virtual void Print();
     void fun1() override;
 
-    virtual void fun2() {
-        cout << "Teacher：fun2" << endl;
-    }
+    virtual void fun2();
 };
 
 void inherit_test();
+
+#endif

@@ -11,8 +11,8 @@
 // 或是经常使用但不常更改的
 // 特定于项目的包含文件
 //
-
-#pragma once
+#ifndef STDAFX_H
+#define STDAFX_H
 
 #include "targetver.h"
 
@@ -40,8 +40,23 @@
 #include <condition_variable>
 #include <future>
 
+
+//TODO(zhoudeguang)：注意命名空间污染问题，请勿使用 using namespace std; 之类方式使用命名空间
 using std::string;
 using std::wstring;
 using std::cout;
 using std::endl;
+
+
+//TODO(zhoudeguang)：此处添加自定义的头文件
+#include "function_test.h"
+#include "bind_test.h"
+#include "lambad_test.h"
+#include "override_test.h"
+#include "class_adapter.h"
+#include "object_adapter.h"
+#include "default_adapter.h"
+#include "thread_test.h"
+
+#endif
 

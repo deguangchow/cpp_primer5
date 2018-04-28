@@ -13,6 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="design_pattern">
+      <UniqueIdentifier>{095f0c37-b4f9-4760-9937-94ec1e397def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="design_pattern\adapter">
+      <UniqueIdentifier>{07e587ba-5a32-40af-bb67-69070985f4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp_11">
+      <UniqueIdentifier>{0a6e61e7-247a-4ff4-b09c-e256caca1b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp_11\STL">
+      <UniqueIdentifier>{6030f4b0-018f-4625-b17e-c09c66c83723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp_11\STL\thread_test">
+      <UniqueIdentifier>{6d94e1f6-9dc8-421e-9735-7c3d81b787f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp_11\STL\mutex">
+      <UniqueIdentifier>{ce65ba79-53ab-4110-9cd7-34e1d4e6214e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="design_pattern\singleton">
+      <UniqueIdentifier>{4d07ac0e-eff6-4595-92a1-ac5be8ee19d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="design_pattern\observer">
+      <UniqueIdentifier>{99d149e9-3f34-44b6-b14c-aeeae54c8deb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,20 +48,32 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="lambad_test.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="class_adapter.h">
+      <Filter>design_pattern\adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="object_adapter.h">
+      <Filter>design_pattern\adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="default_adapter.h">
+      <Filter>design_pattern\adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_test.h">
+      <Filter>cpp_11\STL\thread_test</Filter>
     </ClInclude>
     <ClInclude Include="bind_test.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="function_test.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="override_test.h">
-      <Filter>头文件</Filter>
+      <Filter>cpp_11\STL</Filter>
     </ClInclude>
     <ClInclude Include="final_test.h">
-      <Filter>头文件</Filter>
+      <Filter>cpp_11\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="function_test.h">
+      <Filter>cpp_11\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="lambad_test.h">
+      <Filter>cpp_11\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="override_test.h">
+      <Filter>cpp_11\STL</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -47,20 +83,20 @@
     <ClCompile Include="cpp_primer5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="lambad_test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="bind_test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="function_test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="override_test.cpp">
-      <Filter>源文件</Filter>
+      <Filter>cpp_11\STL</Filter>
     </ClCompile>
     <ClCompile Include="final_test.cpp">
-      <Filter>源文件</Filter>
+      <Filter>cpp_11\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="function_test.cpp">
+      <Filter>cpp_11\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="lambad_test.cpp">
+      <Filter>cpp_11\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="override_test.cpp">
+      <Filter>cpp_11\STL</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

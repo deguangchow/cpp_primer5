@@ -149,12 +149,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bind_test.h" />
+    <ClInclude Include="class_adapter.h" />
+    <ClInclude Include="default_adapter.h" />
     <ClInclude Include="final_test.h" />
     <ClInclude Include="function_test.h" />
     <ClInclude Include="lambad_test.h" />
+    <ClInclude Include="object_adapter.h" />
     <ClInclude Include="override_test.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="thread_test.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bind_test.cpp" />
