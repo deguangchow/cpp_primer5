@@ -9,7 +9,6 @@
 #ifndef OBJECT_ADAPTER_H
 #define OBJECT_ADAPTER_H
 
-#include "stdafx.h"
 #include "class_adapter.h"
 
 //对象适配器：持有的待适配类的对象，继承目标接口类

@@ -36,6 +36,10 @@
 //    return stext;
 //}
 
+// Singleton类实现时，类内部初始化instance。
+Singleton* Singleton::instance = new Singleton();
+
+
 int main() {
     //function_test();
     //bind_test();
@@ -75,7 +79,14 @@ int main() {
     //td->f2();
     //td->f3();
 
-    double a = 0.0, b = 0.0, c = 0.0, d = 0.0;
+    //double a = 0.0, b = 0.0, c = 0.0, d = 0.0;
+
+
+    Singleton *single1 = Singleton::getInstance();
+    Singleton *single2 = Singleton::getInstance();
+    if (single1 == single2) {
+        std::cout << "single1 == single2" << endl;
+    }
 
 
     return 0;

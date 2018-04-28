@@ -57,6 +57,7 @@ using std::endl;
 #include "object_adapter.h"
 #include "default_adapter.h"
 #include "thread_test.h"
+#include "singleton_test.h"
 
 #endif
 

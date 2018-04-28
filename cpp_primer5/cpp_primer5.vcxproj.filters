@@ -75,6 +75,9 @@
     <ClInclude Include="override_test.h">
       <Filter>cpp_11\STL</Filter>
     </ClInclude>
+    <ClInclude Include="singleton_test.h">
+      <Filter>design_pattern\singleton</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

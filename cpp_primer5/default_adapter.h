@@ -8,7 +8,6 @@
 /// \2018/04/25
 #ifndef DEFAULT_ADAPTER_H
 #define DEFAULT_ADAPTER_H
-#include "stdafx.h"
 
 class Target_D {
 public:

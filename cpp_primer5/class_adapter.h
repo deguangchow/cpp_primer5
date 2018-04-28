@@ -8,7 +8,6 @@
 /// \2018/04/25
 #ifndef CLASS_ADAPTER_H
 #define CLASS_ADAPTER_H
-#include "stdafx.h"
 
 //需要实现的目标接口类
 class Target {
